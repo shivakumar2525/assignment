@@ -1,6 +1,6 @@
 #reverse the given string
 
-l="wellcome shivakumar"
+'''l="wellcome shivakumar"
 print(l[::-1])
 
 
@@ -40,4 +40,18 @@ for c in the string:
     else:
         digit.append(c)
 result=''.join(sorted(alpha)+sorted(digit))
-print(result)
+print(result)'''
+
+
+
+
+s='a4k3b2'
+output=''
+for ch in s:
+    if ch.isalpha():
+        x=ch
+    else:
+        d=int(ch)
+        output=output+x*d
+
+print(output)
